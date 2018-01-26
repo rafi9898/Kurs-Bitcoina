@@ -1,0 +1,195 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#liverate {
+    background-color: rgba(18, 18, 18, 0.60);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .panel {
+        width: 70%;
+        margin: 0 auto;
+        background-color: rgba(33, 33, 33, 0.78);
+        box-shadow: 1px 2px black;
+        padding: 30px;
+    }
+    
+    .panel-body {
+        
+        i {
+            color: #FF9900;
+            font-size: 26px;
+            font-weight: bolder;
+            margin-right: 3px;
+        }
+    
+    h1 {
+        color: #ddd;
+        text-transform: uppercase;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        font-size: 22px;
+        text-shadow: 1px 1px black;
+    }
+        
+        
+        
+    }
+}
+
+.bitBox {
+    display: flex;
+    justify-content: center;
+}
+
+#bitValue {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 33px;
+    font-weight: bolder;
+    width: 60%;
+    box-shadow: 1px 2px black;
+}
+
+.box-info {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.box-status {
+    margin-top: 13.6px;
+    text-align: center;
+    
+    p {
+        margin-top: 5%;
+        font-weight: bold;
+        text-shadow: 1px 2px black;
+    }
+}
+
+.tovalue {
+    color: #ddd;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    text-shadow: 1px 2px black;
+}
+
+.decrease{
+    font-size: 19px;
+}
+
+@media only screen and (max-width: 800px) {
+   #bitValue {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 26px;
+    font-weight: bolder;
+    width: auto;
+    box-shadow: 1px 2px black;
+} 
+}
