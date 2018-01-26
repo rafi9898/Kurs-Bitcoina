@@ -1,5 +1,3 @@
-# Kurs-Bitcoina
-Aplikacja została napisana w języku javascript z wykorzystaniem Fetch Api. Zadaniem aplikacji jest pokazywanie najnowszego kursu kryptowaluty Bitcoin.
 
 <center><h1>Aplikacja Kurs Kryptowaluty</h1></center>
 <center><p>Aplikacja została napisana w języku javascript z wykorzystaniem Fetch Api. Zadaniem aplikacji jest pokazywanie najnowszego kursu kryptowaluty Bitcoin.<p></center>
